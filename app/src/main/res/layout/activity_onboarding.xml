@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardingActivity">
+
+    <ImageView
+        android:id="@+id/splashBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/splash_bg" />
+
+    <ImageView
+        android:id="@+id/splashFg"
+        android:layout_width="191dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text"
+        android:layout_width="131dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/alegreya_bold"
+        android:text="@string/onb1"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="@+id/splashFg"
+        app:layout_constraintStart_toStartOf="@+id/splashFg"
+        app:layout_constraintTop_toBottomOf="@+id/splashFg"
+        app:lineHeight="46sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/onb2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/onb_enter"
+        style="@style/btn"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:text="@string/onb_enter"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/onb_reg"
+        style="@style/text"
+        android:layout_width="305dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:includeFontPadding="false"
+        android:text="@string/onb_reg"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/onb_enter"
+        app:layout_constraintStart_toStartOf="@+id/onb_enter"
+        app:layout_constraintTop_toBottomOf="@+id/onb_enter"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

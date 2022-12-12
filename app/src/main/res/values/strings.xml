@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Meditation</string>
+    <string name="onb1">Привет</string>
+    <string name="onb2">Наслаждайся отборочными. \n Будь внимателен. \n Делай хорошо.</string>
+    <string name="onb_enter">Войти в аккаунт</string>
+    <string name="onb_reg">Ещё нет аккаунта? <b>Зарегистрируйтесь</b></string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="register">Register</string>
+    <string name="profile">Профиль</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="mainHello">С возвращением,</string>
+    <string name="mainFeel">Каким ты себя ощущаешь сегодня?</string>
+    <string name="exit">exit</string>
+    <string name="more">подробнее</string>
+
+</resources>
